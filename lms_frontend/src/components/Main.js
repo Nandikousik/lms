@@ -13,7 +13,7 @@ function Main() {
       <Switch>
         <Route path="/" element={<Home/>} />
         <Route path="/about" element={<About/>} />
-        <Route path="/detail/:couse_id" element={<CourseDetail/>} />
+        <Route path="/detail/:course_id" element={<CourseDetail/>} />
       </Switch>
       <Footer />
     </div>
