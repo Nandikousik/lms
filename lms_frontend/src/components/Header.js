@@ -14,17 +14,17 @@ function Header() {
             <a className="nav-link" href="#">Courses</a>
             <a className="nav-link" href="#">Teachers</a>
 
-            <li class="nav-item dropdown">
-              <a className="nav-link dropdown-toggle" href="#" id="navbardropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            <li className="nav-item dropdown">
+              <a className="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                 User
               </a>
-              <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
-                <li><Link className="dropdown-item" to="/user-login">User Login</Link></li>
-                <li><Link className="dropdown-item" to="/user-Register">User Register</Link></li>
+              <ul className="dropdown-menu" aria-labelledby="navbarDropdown">
+                <li><Link className="dropdown-item" to="/user-login">Login</Link></li>
+                <li><Link className="dropdown-item" to="/user-register">Register</Link></li>
                 <li><hr className="dropdown-divider" /></li>
-                {/* <li><link className="dropdown-item" to="/user-dashboard">Dashboard</link></li> */}
+                <li><Link className="dropdown-item" to="/user-dashboard">Dashboard</Link></li>
                 <li><a className="dropdown-item" href="#">Logout</a></li>
-              </div>
+              </ul>
             </li>
           </div>
         </div>
