@@ -1,6 +1,8 @@
 import Header from './Header';
 import Home from './Home';
 import Footer from './Footer';
+
+//Teacher
 import TeacherLogin from './Teacher/TeacherLogin';
 import TeacherRegister from './Teacher/TeacherRegister';
 import TeacherDashboard from './Teacher/TeacherDashboard';
@@ -11,6 +13,7 @@ import TeacherProfileSetting from './Teacher/TeacherProfileSetting';
 import TeacherChangePassword from './Teacher/TeacherChangePassword';
 import TeacherDetail from "./TeacherDetail";
 
+//user
 import Login from './User/Login';
 import Register from './User/Register';
 import Dashboard from './User/Dashboard';
@@ -21,6 +24,11 @@ import ProfileSetting from './User/ProfileSetting';
 import ChangePassword from './User/ChangePassword';
 import About from './About';
 import CourseDetail from "./CourseDetail";
+
+//List Pages
+import AllCourses  from './AllCourses';
+import PopularCourses from './PopularCourses';
+import PopularTeachers from './PopularTeachers';
 
 import { Routes as Switch, Route } from 'react-router-dom';
 
@@ -54,6 +62,11 @@ function Main() {
         <Route path="/profile-setting" element={<ProfileSetting/>} />
         <Route path="/change-password" element={<ChangePassword/>} />
         <Route path="/detail/:course_id" element={<CourseDetail/>} />
+
+        <Route path="/all-courses" element={<AllCourses/>} />
+        <Route path="/popular-courses" element={<PopularCourses/>} />
+        <Route path="/popular-teachers" element={<PopularTeachers/>} />
+
       </Switch>
       <Footer />
     </div>

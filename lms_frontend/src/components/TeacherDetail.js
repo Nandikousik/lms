@@ -26,12 +26,12 @@ function TeacherDetail(){
                 Course List
             </h5>
             <div className="list-group list-group-flush">
-                <Link to="/detail/1" class="list-group-item list-group-item-action">Php Course 1</Link>
-                <Link to="/detail/1" class="list-group-item list-group-item-ation">Php Course 2</Link>
-                <Link to="/detail/1" class="list-group-item list-group-item-action">Python Course 1</Link>
-                <Link to="/detail/1" class="list-group-item list-group-item-ation">Python Course 2</Link>
-                <Link to="/detail/1" class="list-group-item list-group-item-action">JavaScript Course 1</Link>
-                <Link to="/detail/1" class="list-group-item list-group-item-ation">JavaScript Course 2</Link>
+                <Link to="/detail/1" className="list-group-item list-group-item-action">Php Course 1</Link>
+                <Link to="/detail/1" className="list-group-item list-group-item-ation">Php Course 2</Link>
+                <Link to="/detail/1" className="list-group-item list-group-item-action">Python Course 1</Link>
+                <Link to="/detail/1" className="list-group-item list-group-item-ation">Python Course 2</Link>
+                <Link to="/detail/1" className="list-group-item list-group-item-action">JavaScript Course 1</Link>
+                <Link to="/detail/1" className="list-group-item list-group-item-ation">JavaScript Course 2</Link>
             </div>
         </div>
         
