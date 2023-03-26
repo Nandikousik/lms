@@ -7,7 +7,7 @@ function CourseDetail() {
         <div className="container mt-3">
             <div className="row">
                 <div className="col-4">
-                    <ing src="./logo512.png" className="img-thumbnail" alt="Course Image" />
+                    <img src="/logo512.png" className="img-thumbnail" alt="Course Image" />
                 </div>
                 <div className="col-8">
                     <h3>Course Title</h3>
@@ -88,7 +88,7 @@ function CourseDetail() {
             <div className="row">
                 <div className="col-md-3">
                     <div className="card">
-                        <Link to="/detail/1"><img src="logo512.png" className="card-img-top" alt="..." /></Link>
+                        <Link to="/detail/1"><img src="/logo512.png" className="card-img-top" alt="..." /></Link>
                         <div className="card-body">
                             <h5 className="card-title"><Link to="/detail/1">Course title</Link></h5>
                         </div>
@@ -96,7 +96,7 @@ function CourseDetail() {
                 </div>
                 <div className="col-md-3">
                     <div className="card">
-                        <a href="#"><img src="logo512.png" className="card-img-top" alt="..." /></a>
+                        <a href="#"><img src="/logo512.png" className="card-img-top" alt="..." /></a>
                         <div className="card-body">
                             <h5 className="card-title"><a href="#">Course title</a></h5>
                         </div>

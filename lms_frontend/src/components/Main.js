@@ -29,6 +29,7 @@ import CourseDetail from "./CourseDetail";
 import AllCourses  from './AllCourses';
 import PopularCourses from './PopularCourses';
 import PopularTeachers from './PopularTeachers';
+import CategoryCourses from './CategoryCourses';
 
 import { Routes as Switch, Route } from 'react-router-dom';
 
@@ -66,6 +67,7 @@ function Main() {
         <Route path="/all-courses" element={<AllCourses/>} />
         <Route path="/popular-courses" element={<PopularCourses/>} />
         <Route path="/popular-teachers" element={<PopularTeachers/>} />
+        <Route path="/category/:category_slug" element={<CategoryCourses/>} />
 
       </Switch>
       <Footer />

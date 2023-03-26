@@ -7,7 +7,7 @@ function TeacherDetail(){
         <div className="container mt-3">
         <div className="row">
             <div className="col-4">
-                <ing src="./logo512.png" className="img-thumbnail" alt="Course Image" />
+                <img src="/logo512.png" className="img-thumbnail" alt="Course Image" />
             </div>
             <div className="col-8">
                 <h3>John Doe</h3>
@@ -15,8 +15,8 @@ function TeacherDetail(){
                     mobile-friendly and responsive way. In the example below, we remove the grid gutters with .g-0
                     and use .col-md-* classes to make the card horizontal at the md breakpoint. Further adjustments
                     may be needed depending on your card content.</p>
-                <p className='fw-bold'>Skills: <Link to="/teacher-detail/1">Php</Link>,<Link to="/teacher-detail/1">Python</Link>,<Link to="/teacher-detail/1">JavaSript</Link></p>
-                <p className='fw-bold'>Recent Course: <Link to="/teacher-detail/1">React Js</Link></p>
+                <p className='fw-bold'>Skills: <Link to="/category/1">Php</Link>,<Link to="/category/1">Python</Link>,<Link to="/category/1">JavaSript</Link></p>
+                <p className='fw-bold'>Recent Course: <Link to="/category/1">React Js</Link></p>
                 <p className='fw-bold'>Rating: 4.5/5</p>
             </div>
         </div>
