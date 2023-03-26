@@ -1,7 +1,11 @@
 import { Link } from 'react-router-dom';
 import AllCourses from './AllCourses';
+import {useEffect} from 'react';
 
 function Home() {
+  useEffect(()=>{
+    document.title='LMS | Home Page';
+  });
   return (
     <div className="container mt-4">
       {/* Latest Courses */}
