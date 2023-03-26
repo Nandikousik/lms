@@ -9,7 +9,7 @@ import AddCourses from './Teacher/AddCourses';
 import UserList from './Teacher/UserList';
 import TeacherProfileSetting from './Teacher/TeacherProfileSetting';
 import TeacherChangePassword from './Teacher/TeacherChangePassword';
-
+import TeacherDetail from "./TeacherDetail";
 
 import Login from './User/Login';
 import Register from './User/Register';
@@ -31,7 +31,9 @@ function Main() {
       <Switch>
         <Route path="/" element={<Home/>} />
         <Route path="/about" element={<About/>} />
-        <Route path="/detail/:course_id" element={<CourseDetail/>} />
+
+
+        //Teacher
         <Route path="/teacher-login" element={<TeacherLogin/>} />
         <Route path="/teacher-register" element= {<TeacherRegister/>} />
         <Route path="/teacher-dashboard" element={<TeacherDashboard/>} />
@@ -40,8 +42,9 @@ function Main() {
         <Route path="/teacher-users" element={<UserList/>} />
         <Route path="/teacher-profile-setting" element={<TeacherProfileSetting/>} />
         <Route path="/teacher-change-password" element={<TeacherChangePassword/>} /> 
+        <Route path="/teacher-detail/:teacher_id" element={<TeacherDetail/>} />
 
-
+      //User
         <Route path="/user-login" element={<Login/>} />
         <Route path="/user-register" element= {<Register/>} />
         <Route path="/user-dashboard" element={<Dashboard/>} />
@@ -50,6 +53,7 @@ function Main() {
         <Route path="/recommended-courses" element={<RecommendedCourses/>} />
         <Route path="/profile-setting" element={<ProfileSetting/>} />
         <Route path="/change-password" element={<ChangePassword/>} />
+        <Route path="/detail/:course_id" element={<CourseDetail/>} />
       </Switch>
       <Footer />
     </div>

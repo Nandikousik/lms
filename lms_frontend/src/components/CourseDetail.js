@@ -15,7 +15,7 @@ function CourseDetail() {
                         mobile-friendly and responsive way. In the example below, we remove the grid gutters with .g-0
                         and use .col-md-* classes to make the card horizontal at the md breakpoint. Further adjustments
                         may be needed depending on your card content.</p>
-                    <p className='fw-bold'>Course By: <a href="#">Teacher 1</a></p>
+                    <p className='fw-bold'>Course By: <Link to="/teacher-detail/1">Teacher 1</Link></p>
                     <p className='fw-bold'>Duration: 3 Hours з0 Minuts</p>
                     <p className='fw-bold'>otal Enrolled: 456 Students</p>
                     <p className='fw-bold'>Rating: 4.5/5</p>
