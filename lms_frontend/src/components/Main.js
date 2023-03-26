@@ -1,6 +1,16 @@
 import Header from './Header';
 import Home from './Home';
 import Footer from './Footer';
+import TeacherLogin from './Teacher/TeacherLogin';
+import TeacherRegister from './Teacher/TeacherRegister';
+import TeacherDashboard from './Teacher/TeacherDashboard';
+import TeacherCourses from './Teacher/TeacherCourses';
+import AddCourses from './Teacher/AddCourses';
+import UserList from './Teacher/UserList';
+import TeacherProfileSetting from './Teacher/TeacherProfileSetting';
+import TeacherChangePassword from './Teacher/TeacherChangePassword';
+
+
 import Login from './User/Login';
 import Register from './User/Register';
 import Dashboard from './User/Dashboard';
@@ -22,6 +32,16 @@ function Main() {
         <Route path="/" element={<Home/>} />
         <Route path="/about" element={<About/>} />
         <Route path="/detail/:course_id" element={<CourseDetail/>} />
+        <Route path="/teacher-login" element={<TeacherLogin/>} />
+        <Route path="/teacher-register" element= {<TeacherRegister/>} />
+        <Route path="/teacher-dashboard" element={<TeacherDashboard/>} />
+         <Route path="/teacher-courses" element={<TeacherCourses/>} />
+        <Route path="/add-courses" element={<AddCourses/>} />
+        <Route path="/teacher-users" element={<UserList/>} />
+        <Route path="/teacher-profile-setting" element={<TeacherProfileSetting/>} />
+        <Route path="/teacher-change-password" element={<TeacherChangePassword/>} /> 
+
+
         <Route path="/user-login" element={<Login/>} />
         <Route path="/user-register" element= {<Register/>} />
         <Route path="/user-dashboard" element={<Dashboard/>} />
